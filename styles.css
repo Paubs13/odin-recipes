@@ -1,6 +1,7 @@
 * {
     background-color: #2e2e2e;
     font: sans-serif;
+    font-size: 15px;
     color: #ededed;
 }
 
@@ -8,13 +9,45 @@
     text-align: center;
     font-family: Verdana;
     font-size: 40px;
-    font-style: italic;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .index_item {
     font-family: 'Franklin Gothic Medium';
-    font-size: 15px;
     color: #b997db;
 
+}
+.recipe_image {
+    height: auto;
+    width: 400px;
+}
+
+.subtitle {
+    font-size: 28px;
+    font-family: 'Lucida Sans';
+    text-align: left;
+    font-style: italic;
+}
+
+.food_description {
+    font-size: 20px;
+}
+
+.ingredients {
+    font-size: 18px;
+    font: Impact
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.steps {
+    font-size: 20px;
+    background-color: #875988;
 }
