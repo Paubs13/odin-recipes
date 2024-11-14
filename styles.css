@@ -1,33 +1,81 @@
 * {
-    background-color: #2e2e2e;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
     font: sans-serif;
     font-size: 15px;
     color: #ededed;
 }
 
 .page_title {
+    height: 4em;
     text-align: center;
     font-family: Verdana;
     font-size: 40px;
     text-decoration: underline;
     font-weight: bold;
-}
-
-.index_item {
-    font-family: 'Franklin Gothic Medium';
-    color: #b997db;
-
-}
-.recipe_image {
-    height: auto;
-    width: 400px;
+    background-color: #140a1c;
+    padding: 1em;
+    margin: 1em auto 1em auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ededed;
 }
 
 .subtitle {
     font-size: 28px;
     font-family: 'Lucida Sans';
-    text-align: left;
     font-style: italic;
+    text-align: center;
+    background-color: #875988; 
+    border-width: 5px;
+    border-style: dashed;
+    width: 10em;
+    height: 2em;
+    margin: 1em auto 1em auto;
+
+} 
+
+.list{
+    list-style-type: none;
+}
+
+.index_section {
+    background-color: #422d03;
+    margin: 1em auto 1em auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: antiquewhite;
+    padding: 1em;
+    width: 20em;
+    height: 20em;
+}
+
+.index_item {
+    display: block;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 20px 20px 20px 20px;
+    height: 50px;
+    width: 150px;
+    background-color: #209e41;
+    padding: 3px;
+    border: white;
+    border-width: 5px;
+    border-style: ridge;
+}
+
+.index_item:hover {
+    background-color: blueviolet;
+}
+
+.recipe_image {
+    height: auto;
+    width: 400px;
 }
 
 .food_description {
