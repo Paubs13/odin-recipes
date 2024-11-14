@@ -76,23 +76,26 @@ body {
     background-color: blueviolet;
 }
 
-.image_container {
+.box {
     background-color: #140a1c;
-    height: 35em;
-    width: 50em;
-    margin: -1em auto 1em auto;
-    padding: 1em;
     border-width: 2px;
     border-color: whitesmoke;
     border-style: dotted;
 }
 
-.recipe_image {
+.image.box {
+    height: 35em;
+    width: 50em;
+    margin: -2.5em auto 1em auto;
+    padding: 1em;
+    border-top-style: none;
+}
+
+.recipe.image {
     display:block;
     margin: 10px auto 0 auto;
     height: auto;
     width: 400px;
-
 }
 
 .food_description {
@@ -105,11 +108,29 @@ body {
     margin-top: -52px;
 }
 
-.ingredients {
-    font-size: 18px;
-    font: Impact
+.ingredients.box#ch {
+    width: 25em;
+    height: 30em;
+    margin: 2em auto 1em auto;
 }
+
+.ingredients_list {
+    font-size: 18px;
+    font: Impact;
+    list-style-type: none;
+}
+
+.ingredient_item {
+    text-align: center;
+    width: 15.5em;
+    height: 1.5em;
+    margin: 1em 20px 1em 8px;
+    border-width: 1px;
+    border-style: inset;
+    border-color: aliceblue;
+}
+
 .steps {
     font-size: 20px;
-    background-color: #875988;
+    background-color: #140a1c;
 }
