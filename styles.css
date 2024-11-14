@@ -24,21 +24,24 @@ body {
     border-color: #ededed;
 }
 
+.description,
 .subtitle {
     font-size: 28px;
     font-family: 'Lucida Sans';
     font-style: italic;
     text-align: center;
-    background-color: #875988; 
-    border-width: 5px;
+    margin: 1em auto 1em auto;
+}
+
+.subtitle {
+    background-color: #4c3c4d; 
+    border-width: 2px;
     border-style: dashed;
     width: 10em;
     height: 2em;
-    margin: 1em auto 1em auto;
-
 } 
 
-.list{
+.index_list {
     list-style-type: none;
 }
 
@@ -73,27 +76,38 @@ body {
     background-color: blueviolet;
 }
 
+.image_container {
+    background-color: #140a1c;
+    height: 35em;
+    width: 50em;
+    margin: -1em auto 1em auto;
+    padding: 1em;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-style: dotted;
+}
+
 .recipe_image {
+    display:block;
+    margin: 10px auto 0 auto;
     height: auto;
     width: 400px;
+
 }
 
 .food_description {
     font-size: 20px;
 }
 
+.servings{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -52px;
+}
+
 .ingredients {
     font-size: 18px;
     font: Impact
-}
-.left {
-    text-align: left;
-}
-.center {
-    text-align: center;
-}
-.right{
-    text-align: right;
 }
 .steps {
     font-size: 20px;
