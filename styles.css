@@ -98,6 +98,10 @@ body {
     width: 400px;
 }
 
+.recipe.image.ramen{
+    width: 300px;
+}
+
 .food_description {
     font-size: 20px;
 }
@@ -108,9 +112,22 @@ body {
     margin-top: -52px;
 }
 
-.ingredients.box#ch {
-    width: 25em;
+.ingredients.box#ch{
     height: 30em;
+}
+
+.ingredients.box#ha{
+    height: 44em;
+}
+
+.ingredients.box#ra{
+    height:30em;
+}
+
+.ingredients.box#ch,
+.ingredients.box#ha,
+.ingredients.box#ra {
+    width: 25em;
     margin: 2em auto 1em auto;
 }
 
